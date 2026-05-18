@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Halli-Santhe</string>
+    <string name="nav_home">Explore</string>
+    <string name="nav_artisan">My Shop</string>
+    <string name="nav_messages">Inquiries</string>
+    <string name="search_hint">Search products, crafts…</string>
+    <string name="empty_products">No products found</string>
+    <string name="empty_messages">No inquiries yet</string>
+    <string name="btn_enquire">Check Availability / Enquire</string>
+    <string name="btn_save">Save Product</string>
+    <string name="tagline">Your Local Artisan Marketplace</string>
+</resources>

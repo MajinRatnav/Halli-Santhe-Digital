@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <!-- Buyer Flow -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.halliSanthe.ui.home.HomeFragment"
+        android:label="Explore">
+        <action
+            android:id="@+id/action_home_to_productDetail"
+            app:destination="@id/navigation_product_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_product_detail"
+        android:name="com.halliSanthe.ui.buyer.ProductDetailFragment"
+        android:label="Product Details" />
+
+    <!-- Artisan Flow -->
+    <fragment
+        android:id="@+id/navigation_artisan_dashboard"
+        android:name="com.halliSanthe.ui.artisan.ArtisanDashboardFragment"
+        android:label="My Shop">
+        <action
+            android:id="@+id/action_dashboard_to_addProduct"
+            app:destination="@id/navigation_add_product"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_product"
+        android:name="com.halliSanthe.ui.artisan.AddProductFragment"
+        android:label="Add Product" />
+
+    <!-- Messages -->
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.halliSanthe.ui.artisan.MessagesFragment"
+        android:label="Inquiries" />
+
+</navigation>

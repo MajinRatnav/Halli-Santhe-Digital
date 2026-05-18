@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HalliSanthe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_saffron</item>
+        <item name="colorPrimaryVariant">@color/primary_saffron_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_turmeric</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="android:colorBackground">@color/background_cream</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="android:windowBackground">@color/background_cream</item>
+    </style>
+</resources>

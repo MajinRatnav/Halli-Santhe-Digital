@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors - Vibrant Indian Marketplace Palette -->
+    <color name="primary_saffron">#E8660A</color>
+    <color name="primary_saffron_dark">#C45506</color>
+    <color name="accent_turmeric">#F5B800</color>
+    <color name="accent_kumkum">#C0392B</color>
+    <color name="accent_neem">#27AE60</color>
+
+    <!-- Background -->
+    <color name="background_cream">#FFF8F0</color>
+    <color name="surface_white">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="text_hint">#ABABAB</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Status -->
+    <color name="green_light">#D4EDDA</color>
+    <color name="red_light">#F8D7DA</color>
+
+    <!-- Material Theme -->
+    <color name="colorPrimary">#E8660A</color>
+    <color name="colorPrimaryDark">#C45506</color>
+    <color name="colorAccent">#F5B800</color>
+</resources>
